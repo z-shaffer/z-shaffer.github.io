@@ -1,9 +1,14 @@
 # IonInnovationsWebsite
 
-1) Zach Shaffer
+Ion Innovations Website
 
-2) Website
+Zach Shaffer
 
-3) Service
+Website
 
-4) The company I had an internship with over the summer, and still partly work for, have a base website that they want redesigned and new webpages built for. The company works in scientific research and design and provides a microscope service to customers that produces very large datasets, therefore I will need to design a user account system and login portal to build into the website. This will require a dashboard as well to access their service, and a presentable interface for it to run in. Of course, since we are now storing user information, I will need to learn more about security and implement practices to store this data, as well as security for the web server and file storage where the datasets will be managed from. This is the most basic form of the product I want to settle for, and if it proves to be too easy, there are other optional features I can start to work on such as further development to the app they offer as their service (labeling/tagging system on the microscope sample datasets) or a machine learning algorithm to recognize specimen on the samples. 
+Service
+
+The company I had an internship with over the summer, and still partly work for, have a base website that they want redesigned and new webpages built for. The company works in scientific research and design and provides a microscope service to customers that produces very large datasets, and although there’s additional features they would like added if I finish these early, these features are the very least I would like to settle for as a final product: 
+Redesign: The current company website can be found at https://ion-innovations.com/ but they would like something more interactive and modern using JavaScript. I will be responsible for creating a more aesthetic and user-friendly interface, as well as various new web pages such as live updates of  their publications using web scraping tools, or webpages to build their service into and allow clients to work with the app for it.
+User Account System: Part of the purpose of this website is to inform about their company, but since the company offers various services, they also need the website for clients to access. As a result, this website will have a user account system for clients to log into and access the service. This will come with a login portal, dashboard for the service, and file storage system.
+Security: Security will be something that I will be completely new to and learning from scratch. I will need to research not only general web security, but also security for storing user information and how to properly store files that can be uploaded and downloaded from their account to use with the service.
