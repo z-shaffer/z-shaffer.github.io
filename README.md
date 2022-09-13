@@ -15,3 +15,24 @@ Redesign: The current company website can be found at https://ion-innovations.co
 User Account System: Part of the purpose of this website is to inform about their company, but since the company offers various services, they also need the website for clients to access. As a result, this website will have a user account system for clients to log into and access the service. This will come with a login portal, dashboard for the service, and file storage system.
 
 Security: Security will be something that I will be completely new to and learning from scratch. I will need to research not only general web security, but also security for storing user information and how to properly store files that can be uploaded and downloaded from their account to use with the service.
+
+Base features:
+Run on a server 
+Modify design
+Create new pages 
+Design pages 
+Account creation system 
+Login System 
+Setup dashboard page 
+Connect dashboard page 
+Web scraper 
+Implement image viewer software 
+Setup file storage page 
+Build file storage 
+Implement security 
+Improve security
+ 
+Bonus goals:
+Create tagging system
+Add ability to import/export tagging datasets
+Design machine learning algorithm in tagging system to recognize various specimen
