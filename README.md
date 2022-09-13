@@ -17,6 +17,7 @@ User Account System: Part of the purpose of this website is to inform about thei
 Security: Security will be something that I will be completely new to and learning from scratch. I will need to research not only general web security, but also security for storing user information and how to properly store files that can be uploaded and downloaded from their account to use with the service.
 
 Base features:
+
 Run on a server 
 
 Modify design
