@@ -18,21 +18,37 @@ Security: Security will be something that I will be completely new to and learni
 
 Base features:
 Run on a server 
+
 Modify design
+
 Create new pages 
+
 Design pages 
+
 Account creation system 
+
 Login System 
+
 Setup dashboard page 
+
 Connect dashboard page 
+
 Web scraper 
+
 Implement image viewer software 
+
 Setup file storage page 
+
 Build file storage 
+
 Implement security 
+
 Improve security
  
 Bonus goals:
+
 Create tagging system
+
 Add ability to import/export tagging datasets
+
 Design machine learning algorithm in tagging system to recognize various specimen
