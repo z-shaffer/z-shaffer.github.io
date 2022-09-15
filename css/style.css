@@ -1413,6 +1413,16 @@ ul.social-buttons li a:active {
 	transition: opacity 500ms;
 }
 
+.team-member-box-4 {
+	text-align: center;
+	padding: 35px;
+	background-color: #272727;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
 .team-member-box:hover {
 	background-color: #313131;
 }
