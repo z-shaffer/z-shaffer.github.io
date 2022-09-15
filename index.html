@@ -49,7 +49,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand scroll-link" href="#home" data-id="home"><span class="icon-handle-streamline-vector logo"></span></a>
+						<a class="navbar-brand scroll-link" href="#home" data-id="home"><img src="./images/logo.png" style="width:50px;height:50px;"></a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -87,7 +87,7 @@
 		<div class="container center-vertically-holder">
 			<div class="center-vertically">
 				<div id="scaleReveal" class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-					<span class="icon-handle-streamline-vector big-logo"></span>
+					<img src="./images/logo.png">
 					<div class="ticker">
 						<h1>Research</h1>
 						<h1>Design</h1>
@@ -1176,18 +1176,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 text-center">
-					<span class="icon-handle-streamline-vector logo"></span>
-					<h2 class="theme-title">Particles<span class="theme-title-smaller">Theme</span></h2>
+					<img src="https://ion-innovations.com/wp-content/uploads/2020/05/DetailedHeroLogo_1200x620.png" style="width:220px;height:115px;">
+					<!--<h2 class="theme-title">Particles<span class="theme-title-smaller">Theme</span></h2>
 					<a href="#"><span class="ion-social-twitter social-icons-dark-hover mr15"></span></a>
 	                <a href="#"><span class="ion-social-facebook social-icons-dark-hover mr15"></span></a>
-	                <a href="#"><span class="ion-social-googleplus-outline social-icons-dark-hover"></span></a>
+	                <a href="#"><span class="ion-social-googleplus-outline social-icons-dark-hover"></span></a>-->
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 text-small text-center">
 					<hr>
 					<button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">Up</button>
-					<p class="no-margin">&copy; Denis Samardjiev</p>
+					<p class="no-margin">&copy; Ion Innovations</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
@@ -1201,20 +1201,20 @@
 		/* ---- Google Maps ---- */
         function initMap() {
             var mapOptions = {
-                zoom: 15,
+                zoom: 13,
 				zoomControl: false,
 				scaleControl: false,
 				scrollwheel: false,
 				disableDoubleClickZoom: true,
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                center: new google.maps.LatLng(36.19914611549751, -81.66829451582561), // New York
                 styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
             };
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(36.19914611549751, -81.66829451582561),
                 map: map,
-                title: 'Our Office!'
+                title: 'Our Office'
             });
         }
     </script>
