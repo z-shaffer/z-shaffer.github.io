@@ -66,7 +66,7 @@ body.royal_preloader {
     right: 0;
     bottom: 0;
     left: 0;
-    border: 2px solid #424242;
+    border: 2px solid #D3D3D3;
     border-radius: 50%;
 }
 #royal_preloader.royal_preloader_number .royal_preloader_percentage:after {
@@ -192,7 +192,7 @@ body.royal_preloader {
     height: 100%;
     margin: auto;
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #C76363;
 }
 
 
