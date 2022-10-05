@@ -105,3 +105,8 @@ dist
 
 # Logo work
 *.psd
+
+# File storage
+*.7z
+*.zip
+*.rar
