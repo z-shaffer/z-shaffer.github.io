@@ -5,14 +5,14 @@ $('#thework').mixItUp({
     }
 });
 
-/* ---- our ideology hover ---- */
+/* ---- our ideology hover 
 $('.process-box').hover(function() {
 	$(this).find('.process-intro').hide();
 	$(this).find('.process-content').fadeIn();
 }, function() {
 	$(this).find('.process-content').hide();
 	$(this).find('.process-intro').fadeIn();
-});
+}); ---- */
 
 /* ---- contact form ---- */
 $("#contactForm").validator().on("submit", function(event) {
