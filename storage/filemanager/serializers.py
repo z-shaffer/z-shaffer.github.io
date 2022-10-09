@@ -1,6 +1,12 @@
 from rest_framework import serializers
 from .models import Data
 
+# Serializers allow complex data such as querysets and model instances to be converted to native 
+# Python datatypes that can then be easily rendered into JSON, XML or other content types.
+
+# The ModelSerializer class provides a shortcut that lets you automatically create a Serializer class with 
+# fields that correspond to the Model fields.
+
 class DataSerializer(serializers.ModelSerializer):
 
     size = serializers.SerializerMethodField()
