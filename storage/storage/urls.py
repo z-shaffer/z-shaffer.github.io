@@ -25,7 +25,7 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='storage.html'),  name='Storage'),
 ]
 
-if settings.DEBUG:     
+if settings.DEBUG:
     urlpatterns += static(                           
             settings.STATIC_URL, 
 document_root=settings.STATIC_ROOT
