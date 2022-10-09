@@ -1,5 +1,5 @@
 from rest_framework import routers
-from viewsets import DataViewSet
+from filemanager.viewsets import DataViewSet
 
 # Creates a router object + '/files/ url extension. Provides viewSet + API endpoint.
 
