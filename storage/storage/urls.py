@@ -23,7 +23,8 @@ from .routers import router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', TemplateView.as_view(template_name='storage.html'),  name='Storage'),
+    path('', 
+TemplateView.as_view(template_name='storage.html'),  name='Storage'),
     path('api/', include(router.urls)),
 ]
 
@@ -34,4 +35,4 @@ document_root=settings.STATIC_ROOT
           )   
     urlpatterns += static(                          
             settings.MEDIA_URL,         
-            document_root=settings.MEDIA_ROOT)
+document_root=settings.MEDIA_ROOT)

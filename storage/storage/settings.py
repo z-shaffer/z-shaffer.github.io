@@ -28,7 +28,7 @@ SECRET_KEY = 'bxayv8(sp-@-91d6qy*y$f%sb4f28r$v@18r$c1aler5kcb-j8'
 MODE = 'dev'
 DEBUG = 'dev' in MODE
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
