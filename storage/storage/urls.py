@@ -21,7 +21,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from .routers import router
 
-# Generate new URLs for admin login, landing page, and API access
+# Generate new pages with these URL paths: Admin login, dashboard, 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
