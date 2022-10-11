@@ -21,12 +21,16 @@ from django.conf import settings
 from django.conf.urls.static import static
 from .routers import router
 
+# Generate new URLs for admin login, landing page, and API access
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', 
 TemplateView.as_view(template_name='storage.html'),  name='Storage'),
     path('api/', include(router.urls)),
 ]
+
+# Static media content handled here
 
 if settings.DEBUG:
     urlpatterns += static(                           
