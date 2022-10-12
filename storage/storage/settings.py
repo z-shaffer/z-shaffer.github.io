@@ -126,10 +126,14 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # settings for django-webpack-loader
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'public')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'dist'),
 )
+
+# webpack plugin to bundle, compile, and render the code
+
 WEBPACK_LOADER = {
     'DEFAULT': {
         'CACHE': not DEBUG,
