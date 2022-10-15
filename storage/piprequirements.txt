@@ -1,0 +1,4 @@
+Django==2.1
+django-webpack-loader==0.6.0
+djangorestframework==3.9.2
+pytz==2022.4

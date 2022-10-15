@@ -1,0 +1,3 @@
+-g vue-cli
+--save-dev webpack-bundle-tracker@0.4.3
+--save-dev write-file-webpack-plugin@4.5.1
