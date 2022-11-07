@@ -9,6 +9,14 @@ if (empty($_POST["name"])) {
     $name = $_POST["name"];
 }
 
+// PHONE
+if (empty($_POST["phonenum"])) {
+    $phone = "N/A";
+}
+else { 
+    $phone = $_POST["phonenum"];
+}
+
 // EMAIL
 if (empty($_POST["email"])) {
     $errorMSG .= "Email is required ";
@@ -30,8 +38,8 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-$EmailTo = "dimitrovinc@live.com";
-$Subject = "New Message Received";
+$EmailTo = "shafferzl@appstate.edu";
+$Subject = "New Message Received\n";
 
 // prepare email body text
 $Body = "";
@@ -52,14 +60,20 @@ $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+//$success = mail($EmailTo, $Subject, $Body);
+
+//write local
+$contact = fopen("contact.txt", "a") or die("Unable to open file");
+$txt = ($Subject.$Body."\n");
+$success = fwrite($contact, $txt);
+fclose($contact);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
-   echo "success";
+   echo "Message Sent";
 }else{
     if($errorMSG == ""){
-        echo "Something went wrong :(";
+        echo "We're sorry, an error occurred. Please try again later.";
     } else {
         echo $errorMSG;
     }

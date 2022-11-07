@@ -1,0 +1,14 @@
+New Message Received
+Name: test
+Phone: N/A
+Email: test@test.com
+Subject: test
+Message: test
+
+New Message Received
+Name: test2
+Phone: N/A
+Email: test2@test.com
+Subject: test2
+Message: test2
+
