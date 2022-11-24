@@ -1,0 +1,153 @@
+.galleryShadow {
+    display: none;
+    -webkit-transition: ease all .5s;
+    transition: ease all .5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.galleryModal {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: ease all .5s;
+    transition: ease all .5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.galleryModal .galleryContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+}
+
+.galleryModal .galleryContainer img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+.galleryModal .galleryContainer .galleryText {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.galleryModal .galleryIcon {
+    position: absolute;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.galleryModal .gIquit {
+    right: 10px;
+    top: 10px;
+}
+
+.galleryModal .gIleft {
+    top: 50%;
+    left: 10px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.galleryModal .gIright {
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.close {
+    background: url("./icons/icon-close.png") no-repeat;
+    cursor: pointer;
+}
+
+.nav-left {
+    background: url("./icons/icon-left.png") no-repeat;
+    cursor: pointer;
+}
+
+.nav-right {
+    background: url("./icons/icon-right.png") no-repeat;
+    cursor: pointer;
+}
+
+.list-icon, .gallery-icon, .slideshow-icon {
+    padding: 10px 40px;
+    background: #586e75;
+    border: #485c61 1px solid;
+    color: #FFF;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+div.image {
+    margin: 10px;
+    position: relative;
+}
+
+div.image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.heading {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+div.image.small img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 8px 15px;
+    padding: 2px;
+}
+
+div.image.small {
+    border-bottom: #F0F0F0 1px solid;
+}
+
+.image-container {
+    margin: 25px 0px;
+    background: #f5f5f5;
+}
+
+body {
+    font-family: Arial;
+    color: #212121;
+    font-size: 0.95em;
+}
+
+.display-inline-block {
+    display:inline-block;
+}
