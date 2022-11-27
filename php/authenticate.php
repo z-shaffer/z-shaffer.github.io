@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Connection info
-$DATABASE_HOST = 'localhost';
+$DATABASE_HOST = 'localhost:3306';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = '';
 $DATABASE_NAME = 'phplogin';
@@ -17,9 +17,9 @@ if ( !isset($_POST['username'], $_POST['password']) ) {
 	exit('Please fill both the username and password fields!');
 }
 // Prepare SQL statement
-if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
+if ($stmt = $con->prepare("SELECT id, password FROM accounts WHERE username = '" . $_POST['username'] . "'")) {
 	// Bind parameters (s = string, i = int, b = blob, etc), where username is a string 's'
-	$stmt->bind_param('s', $_POST['username']);
+	//$stmt->bind_param('s', $_POST['username']);
 	$stmt->execute();
 	// Store the result to prepare to check the database for it
 	$stmt->store_result();
@@ -35,14 +35,14 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
             $_SESSION['loggedin'] = TRUE;
             $_SESSION['name'] = $_POST['username'];
             $_SESSION['id'] = $id;
-            echo 'Welcome ' . $_SESSION['name'] . '!';
+            header('Location: index.php');
         } else {
             // Incorrect password, user's login state remains false
-            echo 'Password and/or username is incorrect';
+            header('Location: ./../loginf.html');
         }
     } else {
         // Incorrect username, user's login state remains false
-        echo 'Password and/or username is incorrect';
+        header('Location: ./../loginf.html');
     }
 	$stmt->close();
 }
