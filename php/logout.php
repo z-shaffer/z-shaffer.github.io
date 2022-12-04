@@ -3,5 +3,5 @@
 session_start();
 session_destroy();
 // Redirect to the login page after logged out
-header('Location: login.html');
+header('Location: ./../login.html');
 ?>

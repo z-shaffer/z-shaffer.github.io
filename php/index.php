@@ -4,9 +4,10 @@ $db_handle = new DBController();
 session_start();
 // Check if user's login state is true, redirect to the login page if false
 if (!isset($_SESSION['loggedin'])) {
-	header('Location: login.html');
+	header('Location: ./../login.html');
 	exit;
 }
+
 if (! empty($query)) {
     foreach ($query as $key => $value) {
 ?>
