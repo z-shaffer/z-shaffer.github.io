@@ -44,4 +44,4 @@ Features:
 
 - Redesigning file storage in php/js (https://github.com/z-shaffer/z-shaffer.github.io/tree/4782be90e387cb890ae66d3ee7efd91e90da170c)
 
-- SQL DB/Login Server working (https://github.com/z-shaffer/z-shaffer.github.io/tree/5c5879fb8b2b19f7c53242866f0754e99ecacae9)
+- SQL DB/Login Server working (https://github.com/z-shaffer/z-shaffer.github.io/tree/5c5879fb8b2b19f7c53242866f0754e99ecacae9 + http://8.40.61.73:4010/phpmyadmin)
