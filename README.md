@@ -16,41 +16,32 @@ User Account System: Part of the purpose of this website is to inform about thei
 
 Security: Security will be something that I will be completely new to and learning from scratch. I will need to research not only general web security, but also security for storing user information and how to properly store files that can be uploaded and downloaded from their account to use with the service.
 
-Base features:
+To view this website, visit the already running server at http://8.40.61.73:4010/. To run it on your own, you will have to download the codebase, and run a SQL server on your PC, then run a PHP server and host these files on it.
 
-- Run on a server 
+Features:
 
-- Modify design
+- Run on a development server (https://z-shaffer.github.io/)
 
-- Create new pages 
+- Modify design (https://github.com/z-shaffer/z-shaffer.github.io/tree/045d5fcd162eee4317ef34f53577b45f99e57921)
 
-- Design pages 
+- Create new pages (https://github.com/z-shaffer/z-shaffer.github.io/tree/a87062c11acae31d2e37bc59db16953443a0d40e)
 
-- Account creation system 
+- Design pages (https://github.com/z-shaffer/z-shaffer.github.io/tree/71867c3f7494b77b694a14515c3896c2be5480a2)
 
-- Login System 
+- Setting up file storage frontend (https://github.com/z-shaffer/z-shaffer.github.io/tree/55ef734c5617abdee51a5fd50fda7251ecddafb9)
 
-- Setup dashboard page 
+- Setting up file storage backend (https://github.com/z-shaffer/z-shaffer.github.io/tree/d609afadde877d35040b2bd138f493e17a1ee79b)
 
-- Connect dashboard page 
+- Host on a web server at the office with firewall (http://8.40.61.73:4010/)
 
-- Web scraper 
+- Design login frontend (https://github.com/z-shaffer/z-shaffer.github.io/tree/e2b69a5a062975c03a0e50f2949e7e4f56baad60)
 
-- Implement image viewer software 
+- Finished contact form backend (https://github.com/z-shaffer/z-shaffer.github.io/tree/91f0747e910808d8f74681eef72165a5c957379f)
 
-- Setup file storage page 
+- Finished publication module + introduced modular codebase (https://github.com/z-shaffer/z-shaffer.github.io/tree/499aceed02b777204ace712721c33f5bebcb4c41)
 
-- Build file storage 
+- Implemented modularity to the employee + intern sections (https://github.com/z-shaffer/z-shaffer.github.io/tree/1c22655f3d10ad06e109019ff186d87e90721618)
 
-- Implement security 
+- Redesigning file storage in php/js (https://github.com/z-shaffer/z-shaffer.github.io/commit/4782be90e387cb890ae66d3ee7efd91e90da170c)
 
-- Improve security
- 
- 
-Bonus goals:
-
-- Create tagging system
-
-- Add ability to import/export tagging datasets
-
-- Design machine learning algorithm in tagging system to recognize various specimen
+- SQL DB/Login Server working (https://github.com/z-shaffer/z-shaffer.github.io/commit/966269f75888ff0a6d17dfa89680f0d440f16fa0)
