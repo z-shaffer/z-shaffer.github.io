@@ -42,6 +42,6 @@ Features:
 
 - Implemented modularity to the employee + intern sections (https://github.com/z-shaffer/z-shaffer.github.io/tree/1c22655f3d10ad06e109019ff186d87e90721618)
 
-- Redesigning file storage in php/js (https://github.com/z-shaffer/z-shaffer.github.io/commit/4782be90e387cb890ae66d3ee7efd91e90da170c)
+- Redesigning file storage in php/js (https://github.com/z-shaffer/z-shaffer.github.io/tree/4782be90e387cb890ae66d3ee7efd91e90da170c)
 
-- SQL DB/Login Server working (https://github.com/z-shaffer/z-shaffer.github.io/commit/966269f75888ff0a6d17dfa89680f0d440f16fa0)
+- SQL DB/Login Server working (https://github.com/z-shaffer/z-shaffer.github.io/tree/5c5879fb8b2b19f7c53242866f0754e99ecacae9)
